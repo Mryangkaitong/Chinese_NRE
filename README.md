@@ -26,6 +26,7 @@
 
 ## OpenNRE
 一 ：在OpenNRE文件夹下创建/data/people_relation/文件夹，将训练好的词向量和解压的数据放入
+
 二 ：将txt转化成json
 <pre><code> python txt2json.py
 
