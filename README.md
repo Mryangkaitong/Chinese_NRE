@@ -1,7 +1,6 @@
 # Chinese_NRE
 中文关系抽取
 
-
 # 数据集：
 
 人物关系抽取比赛https://biendata.com/competition/ccks_2019_ipre/leaderboard/
@@ -18,6 +17,9 @@
 一个是使用OpenNRE，这是一个清华开发的API:https://github.com/thunlp/OpenNRE 对应于openNRE文件夹下
 
 一个是一个简单的版本对应于bag_sent文件夹下
+
+
+在OpenNRE上面跑的结果很差（具体原因不知道怎么回事？难道是转化数据格式有问题？），后续参考比赛demo和OpenNRE又写了一个简单的版本
 
 # 开始
 首先下载后数据集后，训练词向量
@@ -82,3 +84,6 @@
 
 ## bag_sent
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/sent_bag_result.png)
+
+# 详细解析：
+https://blog.csdn.net/weixin_42001089/article/details/95493249
