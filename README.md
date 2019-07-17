@@ -8,6 +8,7 @@
 
 备用下载链接：https://pan.baidu.com/s/1JR7L_pCIXFLLjrbRSOJw9A  提取码：obn7 
 
-
+关系：
+![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/people_relation.png)
 
 
