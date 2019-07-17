@@ -75,4 +75,8 @@
 会在当前文件夹生成结果
 
 # 部分结果：
-
+## OpenNRE
+![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/OpenNRE_rnn_one.png)
+![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/OpenNRE_pcnn_att.png)
+## bag_sent
+![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/sent_bag_result.png)
