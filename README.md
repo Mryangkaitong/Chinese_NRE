@@ -47,10 +47,27 @@
 <pre><code> python json2txt.py people_relation_pcnn_att
 </code></pre>
 
+## bag_sent
+在该文件加下创建/data文件夹，将解压的数据和词向量放入
+
+一：下载bert模型
+因为这里看了一下bert，所以需要下载训练好的bert模型，
+链接：https://pan.baidu.com/s/1ZuiOLCSluMCyVp3HhvCexw 
+提取码：rhza ,
+下载好后将其解压放到bag_sent/bert_model/文件夹下
+
+二：训练
+假设使用cnn 训练sent模式
+<pre><code> baseline.py --encoder rnn --level sent
+
+</code></pre>
+假设使用pcnn 训练bag模式
+<pre><code> baseline.py --encoder rnn --level bag
+
+</code></pre>
 
 
-
-
-
-
-
+四：预测
+<pre><code> baseline.py --encoder rnn --level bag --mode test
+</code></pre>
+会在当前文件夹生成结果
