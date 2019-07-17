@@ -16,6 +16,7 @@
 这里进行了两方面的尝试
 
 一个是使用OpenNRE，这是一个清华开发的API:https://github.com/thunlp/OpenNRE 对应于openNRE文件夹下
+
 一个是一个简单的版本对应于bag_sent文件夹下
 
 # 开始
@@ -51,6 +52,7 @@
 在该文件加下创建/data文件夹，将解压的数据和词向量放入
 
 一：下载bert模型
+
 因为这里看了一下bert，所以需要下载训练好的bert模型，
 链接：https://pan.baidu.com/s/1ZuiOLCSluMCyVp3HhvCexw 
 提取码：rhza ,
@@ -71,3 +73,6 @@
 <pre><code> baseline.py --encoder rnn --level bag --mode test
 </code></pre>
 会在当前文件夹生成结果
+
+# 部分结果：
+
