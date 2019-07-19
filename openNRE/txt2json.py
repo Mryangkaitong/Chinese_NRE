@@ -105,11 +105,11 @@ if __name__ == '__main__':
     test_relation_file = 'sent_relation_test.txt'
     test_save_filename = 'test.json'
     
-    txt2json = Txt2json(input_root_path='./data',output_root_path='./opendata', word_dim=300)
+    txt2json = Txt2json(input_root_path='./data',output_root_path='./data', word_dim=300)
     print('生成rel2id.json')
     txt2json.generate_rel2id(relation2id_file)
-    #print('生成word_vec.json')
-    #txt2json.generate_word_vec(word_vec_file)
+    print('生成word_vec.json')
+    txt2json.generate_word_vec(word_vec_file)
     print('生成train.json')
     txt2json.generate_dataset(train_sent_file,train_relation_file,train_save_filename)
     print('生成dev.json')
