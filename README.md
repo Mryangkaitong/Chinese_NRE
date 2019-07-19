@@ -50,6 +50,8 @@
 <pre><code> python json2txt.py people_relation_pcnn_att
 </code></pre>
 
+说明：entity文件夹下的两个脚本对应的是在转化过程中将实体对单独编码id，这个逻辑上面更通一些
+
 ## bag_sent
 在该文件加下创建/data文件夹，将解压的数据和词向量放入
 
