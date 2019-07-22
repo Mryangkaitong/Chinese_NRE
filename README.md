@@ -110,6 +110,6 @@ python predict_GRU.py 2643
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/sent_bag_result.png)
 
 ## BGRU
-![image]()
+![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/BGRU.png)
 # 详细解析：
 https://blog.csdn.net/weixin_42001089/article/details/95493249
