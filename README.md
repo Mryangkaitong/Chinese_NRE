@@ -84,16 +84,17 @@
 # BGRU
 一：将解压的数据放入origin_data目录下
 二：数据预处理
-<pre><code> baseline.py --encoder rnn --level bag
+<pre><code> 
 python initial.py
 </code></pre>
 三：训练
-<pre><code> baseline.py --encoder rnn --level bag
+<pre><code>
 python train_GRU.py
 </code></pre>
 其中它会自动调用test_GRU.py验证其在dev上面的性能
+
 四：预测结果
-<pre><code> baseline.py --encoder rnn --level bag
+<pre><code> 
 python predict_GRU.py 2643
 </code></pre>
 其中2643是加载2643模型，可以加载别的，具体看model下面有哪些即可
