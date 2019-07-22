@@ -12,11 +12,13 @@
 
 
 # 模型
-这里进行了两方面的尝试
+这里进行了三方面的尝试
 
 一个是使用OpenNRE，这是一个清华开发的API:https://github.com/thunlp/OpenNRE 对应于openNRE文件夹下
 
-一个是一个简单的版本对应于bag_sent文件夹下
+一个是(BGRU+2ATT)网络：https://github.com/squirrel1982/TensorFlow-NRE
+
+最后一个是一个简单的版本对应于bag_sent文件夹下
 
 
 在OpenNRE上面跑的结果很差（具体原因不知道怎么回事？难道是转化数据格式有问题？），后续参考比赛demo和OpenNRE又写了一个简单的版本
@@ -77,6 +79,25 @@
 <pre><code> baseline.py --encoder rnn --level bag --mode test
 </code></pre>
 会在当前文件夹生成结果
+
+
+# BGRU
+一：将解压的数据放入origin_data目录下
+二：数据预处理
+<pre><code> baseline.py --encoder rnn --level bag
+python initial.py
+</code></pre>
+三：训练
+<pre><code> baseline.py --encoder rnn --level bag
+python train_GRU.py
+</code></pre>
+其中它会自动调用test_GRU.py验证其在dev上面的性能
+四：预测结果
+<pre><code> baseline.py --encoder rnn --level bag
+python predict_GRU.py 2643
+</code></pre>
+其中2643是加载2643模型，可以加载别的，具体看model下面有哪些即可
+
 
 # 部分结果：
 ## OpenNRE
