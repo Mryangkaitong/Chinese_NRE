@@ -83,6 +83,7 @@
 
 # BGRU
 一：将解压的数据放入origin_data目录下
+
 二：数据预处理
 <pre><code> 
 python initial.py
