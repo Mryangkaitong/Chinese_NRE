@@ -21,7 +21,19 @@
 最后一个是一个简单的版本对应于bag_sent文件夹下
 
 
-在OpenNRE上面跑的结果很差（具体原因不知道怎么回事？难道是转化数据格式有问题？），后续参考比赛demo和OpenNRE又写了一个简单的版本
+OpenNRE其目前只实现了bag方式的单标签，没有实现多标签，且没有sent方式，不过现在好像正在开发，大家可以期待，对其感兴趣的同学可以关注：
+
+https://github.com/thunlp/OpenNRE/tree/nrekit
+
+所以准确来说，OpenNRE并不适用该比赛，为此，为了进一步展示bag方式（多标签）和sent这种形式，这里会结合比赛的给出的baseline的代码进行实践，补存实现pcnn,rnn,cnn(目前只有sentences)等即bag_sent文件夹下
+
+baseline：https://github.com/ccks2019-ipre/baseline
+
+还有就是GRU，其官方对比效果好于OpenNRE，其实可以看成是一个改进版吧
+
+https://github.com/squirrel1982/TensorFlow-NRE
+
+这也是本篇主要参考几篇资料，第一部分和第三部分在该比赛中效果不好，这里之所以讲主要目的就是介绍一下其使用流程，以便有需要的场合使用。相关的实践因为其只能处理单标签，这里就用sent的数据
 
 # 开始
 首先下载后数据集后，训练词向量
