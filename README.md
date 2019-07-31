@@ -126,3 +126,5 @@ python predict_GRU.py 2643
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/BGRU.png)
 # 详细解析：
 https://blog.csdn.net/weixin_42001089/article/details/95493249
+
+三元组关系抽取https://blog.csdn.net/weixin_42001089/article/details/97657149
