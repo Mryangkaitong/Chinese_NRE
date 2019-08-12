@@ -122,9 +122,35 @@ python predict_GRU.py 2643
 ## bag_sent
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/sent_bag_result.png)
 
+更新(线下)：
+一  input+双层birnn（lstm）+attention_1
+ 
+sent: 0.2515
+
+二  input+单层birnn（gru）+attention_1
+
+sent:0.2693
+
+三  input+cnn
+
+bag:0.2819
+
+四  input+双层birnn+attention_2
+
+sent:0.2698
+
+五  input（cnn）+双层birnn+attention_2
+
+sent:0.2088
+
+六  双层birnn+attention_1+level_1
+
+sent:0.254
+
 ## BGRU
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/BGRU.png)
 # 详细解析：
 https://blog.csdn.net/weixin_42001089/article/details/95493249
 
-三元组关系抽取https://blog.csdn.net/weixin_42001089/article/details/97657149
+另外是一个基于bert的三元组关系抽取
+https://blog.csdn.net/weixin_42001089/article/details/97657149
