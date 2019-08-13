@@ -152,5 +152,9 @@ sent:0.254
 # 详细解析：
 https://blog.csdn.net/weixin_42001089/article/details/95493249
 
-另外是一个基于bert的三元组关系抽取
+# 其他探索：
+一个基于bert的三元组关系抽取
 https://blog.csdn.net/weixin_42001089/article/details/97657149
+
+一个半监督的关系抽取：
+https://github.com/Mryangkaitong/python-Machine-learning/tree/master/deepdive
