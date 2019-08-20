@@ -123,6 +123,7 @@ python predict_GRU.py 2643
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/sent_bag_result.png)
 
 更新(线下)：
+
 一  input+双层birnn（lstm）+attention_1
  
 sent: 0.2515
