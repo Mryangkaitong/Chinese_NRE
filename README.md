@@ -33,7 +33,7 @@ baseline：https://github.com/ccks2019-ipre/baseline
 
 https://github.com/squirrel1982/TensorFlow-NRE
 
-这也是本篇主要参考几篇资料，第一部分和第三部分在该比赛中效果不好，这里之所以讲主要目的就是介绍一下其使用流程，以便有需要的场合使用。相关的实践因为其只能处理单标签，这里就用sent的数据
+这也是本篇主要参考几篇资料，第一部分和第三部分在该比赛中效果不好，这里之所以讲主要目的就是介绍一下其使用流程，以便有需要的场合使用。关于本比赛的部分解决方案可以直接看bag_sent部分
 
 # 开始
 首先下载后数据集后，训练词向量
@@ -42,6 +42,7 @@ https://github.com/squirrel1982/TensorFlow-NRE
 </code></pre>
 
 ## OpenNRE
+因为其只能处理单标签，这里就用sent的数据
 一 ：在OpenNRE文件夹下创建/data/people_relation/文件夹，将训练好的词向量和解压的数据放入
 
 二 ：将txt转化成json
