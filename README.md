@@ -122,7 +122,7 @@ python predict_GRU.py 2643
 ## bag_sent
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/sent_bag_result.png)
 
-更新(线下)：
+更新(此时比赛已经结束，没办法验证线上，下面是线下的结果)：
 
 一  input+双层birnn（lstm）+attention_1
  
