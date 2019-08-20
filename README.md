@@ -147,6 +147,31 @@ sent:0.2088
 
 sent:0.254
 
+七  双层birnn+attention_1+MASK
+
+sent:0.272969
+
+八  双层birnn（gru）+attention_1+drop
+
+sent:0.276112
+
+九  双层birnn（gru）+attention_1+drop+MASK
+
+sent:0.264407
+
+十  双层birnn（gru）+attention_1+drop+shuffle
+
+sent:0.256494
+
+十一  双层birnn（gru）+attention_1+drop+shuffle+MASK
+
+sent:0.280276
+
+十二  双层birnn（gru）+attention_1+shuffle+MASK
+
+sent:0.271749
+
+
 ## BGRU
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/BGRU.png)
 # 详细解析：
