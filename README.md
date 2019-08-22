@@ -176,6 +176,8 @@ sent:0.271749
 
 ## BGRU
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/BGRU.png)
+
+需要说明的是这里个f1是35类的f1结果，而bag_sent部分的f1都是除去NA类别的f1
 # 详细解析：
 https://blog.csdn.net/weixin_42001089/article/details/95493249
 
