@@ -173,6 +173,9 @@ sent:0.280276
 
 sent:0.271749
 
+十三  双层birnn（gru）+MultiHeadAttention+drop
+
+sent:0.273533
 
 ## BGRU
 ![image](https://github.com/Mryangkaitong/Chinese_NRE/blob/master/photo/BGRU.png)
