@@ -197,3 +197,6 @@ https://github.com/Mryangkaitong/python-Machine-learning/tree/master/deepdive
 # 笔者csdn博客：
 https://blog.csdn.net/weixin_42001089?spm=1001.2101.3001.5343
 
+# 笔者知乎:
+https://www.zhihu.com/people/sa-tuo-de-yisheng/posts
+
